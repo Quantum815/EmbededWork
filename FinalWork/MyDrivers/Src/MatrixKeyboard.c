@@ -172,28 +172,35 @@ void R1C2Fuction(void)
 {
 	char f_name[10];
 	
-	PicNum--;
-	if(PicNum < 1)
-		PicNum = 1;
-	else
+	if(EnableShowPicFlag)
 	{
-		memset(f_name, 0x00, sizeof(*f_name));
-		sprintf((char*)f_name, "Pic%d.txt", PicNum);
-		Show_Pic(&fd, f_name);
+		PicNum--;
+		if(PicNum < 1)
+			PicNum = 1;
+		else
+		{
+			memset(f_name, 0x00, sizeof(*f_name));
+			sprintf((char*)f_name, "Pic%d.txt", PicNum);
+			Show_Pic(&fd, f_name);
+		}
 	}
+
 }
 void R1C3Fuction(void)
 {
 	char f_name[10];
 	
-	PicNum++;
-	if(PicNum > TOTAL_PIC_NUM)
-		PicNum = TOTAL_PIC_NUM;
-	else
+	if(EnableShowPicFlag)
 	{
-		memset(f_name, 0x00, sizeof(*f_name));
-		sprintf((char*)f_name, "Pic%d.txt", PicNum);
-		Show_Pic(&fd, f_name);
+		PicNum++;
+		if(PicNum > TOTAL_PIC_NUM)
+			PicNum = TOTAL_PIC_NUM;
+		else
+		{
+			memset(f_name, 0x00, sizeof(*f_name));
+			sprintf((char*)f_name, "Pic%d.txt", PicNum);
+			Show_Pic(&fd, f_name);
+		}
 	}
 }
 void R1C4Fuction(void)
