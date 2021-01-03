@@ -1,0 +1,42 @@
+Added Component: Designator=3.3V(HDR-1X8)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "BOM名称"; Value = "8P接插件"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=5V(HDR-1X8)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "BOM名称"; Value = "8P接插件"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=GND(HDR-1X8)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "BOM名称"; Value = "8P接插件"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3.3V Pin=3.3V-1
+Added Pin To Net: NetName=3.3V Pin=3.3V-2
+Added Pin To Net: NetName=3.3V Pin=3.3V-3
+Added Pin To Net: NetName=3.3V Pin=3.3V-4
+Added Pin To Net: NetName=3.3V Pin=3.3V-5
+Added Pin To Net: NetName=3.3V Pin=3.3V-6
+Added Pin To Net: NetName=3.3V Pin=3.3V-7
+Added Pin To Net: NetName=3.3V Pin=3.3V-8
+Added Pin To Net: NetName=5V Pin=5V-1
+Added Pin To Net: NetName=5V Pin=5V-2
+Added Pin To Net: NetName=5V Pin=5V-3
+Added Pin To Net: NetName=5V Pin=5V-4
+Added Pin To Net: NetName=5V Pin=5V-5
+Added Pin To Net: NetName=5V Pin=5V-6
+Added Pin To Net: NetName=5V Pin=5V-7
+Added Pin To Net: NetName=5V Pin=5V-8
+Added Pin To Net: NetName=GND Pin=GND-1
+Added Pin To Net: NetName=GND Pin=GND-2
+Added Pin To Net: NetName=GND Pin=GND-3
+Added Pin To Net: NetName=GND Pin=GND-4
+Added Pin To Net: NetName=GND Pin=GND-5
+Added Pin To Net: NetName=GND Pin=GND-6
+Added Pin To Net: NetName=GND Pin=GND-7
+Added Pin To Net: NetName=GND Pin=GND-8
+Added Member To Class: ClassName=Sheet1 Member=Component 3.3V HDR-1X8
+Added Member To Class: ClassName=Sheet1 Member=Component 5V HDR-1X8
+Added Member To Class: ClassName=Sheet1 Member=Component GND HDR-1X8

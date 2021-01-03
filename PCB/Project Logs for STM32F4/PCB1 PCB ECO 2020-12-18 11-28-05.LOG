@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=GND Pin=GND2-1
+Removed Pin From Net: NetName=GND Pin=GND2-2
+Removed Pin From Net: NetName=GND Pin=GND2-3
+Removed Pin From Net: NetName=GND Pin=GND2-4
+Removed Pin From Net: NetName=GND Pin=GND2-5
+Removed Pin From Net: NetName=GND Pin=GND2-6
+Removed Pin From Net: NetName=GND Pin=GND2-7
+Removed Pin From Net: NetName=GND Pin=GND2-8
+Removed Member From Class: ClassName=Sheet1 Member=GND2
+Change Component Designator: OldDesignator=GND1 NewDesignator=GND

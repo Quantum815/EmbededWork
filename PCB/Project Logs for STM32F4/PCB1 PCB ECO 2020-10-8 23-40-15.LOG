@@ -1,0 +1,20 @@
+Added Component: Designator=UART1(HDR-1X4)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "BOM名称"; Value = "4P接插件"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=UART2(HDR-1X4)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "BOM名称"; Value = "4P接插件"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=5V Pin=UART1-1
+Added Pin To Net: NetName=PA10 Pin=UART1-2
+Added Pin To Net: NetName=PA9 Pin=UART1-3
+Added Pin To Net: NetName=GND Pin=UART1-4
+Added Pin To Net: NetName=5V Pin=UART2-1
+Added Pin To Net: NetName=PA3 Pin=UART2-2
+Added Pin To Net: NetName=PA2 Pin=UART2-3
+Added Pin To Net: NetName=GND Pin=UART2-4
+Added Member To Class: ClassName=Sheet1 Member=Component UART1 HDR-1X4
+Added Member To Class: ClassName=Sheet1 Member=Component UART2 HDR-1X4

@@ -1,0 +1,9 @@
+Added Component: Designator=LMT70(HDR-1X3_M)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "BOM名称"; Value = "3P接插件"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3.3V Pin=LMT70-1
+Added Pin To Net: NetName=PA0 Pin=LMT70-2
+Added Pin To Net: NetName=GND Pin=LMT70-3
+Added Class: Name=Sheet1

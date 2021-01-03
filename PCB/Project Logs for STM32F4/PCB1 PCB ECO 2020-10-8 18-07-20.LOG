@@ -1,0 +1,15 @@
+Added Component: Designator=LCD(HDR-1X14_M)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "BOM名称"; Value = "14P接插件"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=5V Pin=LCD-1
+Added Pin To Net: NetName=GND Pin=LCD-2
+Added Pin To Net: NetName=PE1 Pin=LCD-3
+Added Pin To Net: NetName=PE0 Pin=LCD-4
+Added Pin To Net: NetName=PE2 Pin=LCD-5
+Added Pin To Net: NetName=PA7 Pin=LCD-6
+Added Pin To Net: NetName=PA5 Pin=LCD-7
+Added Pin To Net: NetName=5V Pin=LCD-8
+Added Pin To Net: NetName=PA6 Pin=LCD-9
+Added Member To Class: ClassName=Sheet1 Member=Component LCD HDR-1X14

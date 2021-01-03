@@ -1,0 +1,14 @@
+Added Component: Designator=¼üÅÌ(HDR-1X8_M)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "BOMÃû³Æ"; Value = "8P½Ó²å¼ş"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ñ§Ï°×ÊÔ´"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "°æÈ¨¹éÊô"; Value = "Ô´´´¿Í"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=PF5 Pin=¼üÅÌ-1
+Added Pin To Net: NetName=PF4 Pin=¼üÅÌ-2
+Added Pin To Net: NetName=PF3 Pin=¼üÅÌ-3
+Added Pin To Net: NetName=PF2 Pin=¼üÅÌ-4
+Added Pin To Net: NetName=PF6 Pin=¼üÅÌ-5
+Added Pin To Net: NetName=PF7 Pin=¼üÅÌ-6
+Added Pin To Net: NetName=PF8 Pin=¼üÅÌ-7
+Added Pin To Net: NetName=PF9 Pin=¼üÅÌ-8
+Added Member To Class: ClassName=Sheet1 Member=Component ¼üÅÌ HDR-1X8

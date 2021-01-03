@@ -1,0 +1,43 @@
+Removed Pin From Net: NetName=5V Pin=UART2-1
+Removed Pin From Net: NetName=PA3 Pin=UART2-2
+Removed Pin From Net: NetName=PA2 Pin=UART2-3
+Removed Pin From Net: NetName=GND Pin=UART2-4
+Removed Member From Class: ClassName=Sheet1 Member=UART2
+Added Component: Designator=BAT(BAT_SMD)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C1(0805C)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "BOM名称"; Value = "无极性贴片电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=C2(0805C)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "BOM名称"; Value = "无极性贴片电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=D1(SOD-123)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D2(SOD-123)
+Add component. Clean all parameters for all variants
+Added Component: Designator=U2(BAT54C)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=PA0 Pin=BAT-1
+Added Pin To Net: NetName=GND Pin=BAT-2
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=VBAT Pin=C1-2
+Added Pin To Net: NetName=VBAT Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=PE3 Pin=LCD-10
+Added Pin To Net: NetName=PE4 Pin=LCD-11
+Added Pin To Net: NetName=PE5 Pin=LCD-12
+Added Pin To Net: NetName=PE6 Pin=LCD-13
+Added Pin To Net: NetName=PC13 Pin=LCD-14
+Added Pin To Net: NetName=VBAT Pin=U2-1
+Added Pin To Net: NetName=3.3V Pin=U2-2
+Added Pin To Net: NetName=VBAT Pin=U2-3
+Added Member To Class: ClassName=Sheet1 Member=Component BAT 
+Added Member To Class: ClassName=Sheet1 Member=Component C1 104
+Added Member To Class: ClassName=Sheet1 Member=Component C2 104
+Added Member To Class: ClassName=Sheet1 Member=Component D1 1N4148
+Added Member To Class: ClassName=Sheet1 Member=Component D2 1N4148
+Added Member To Class: ClassName=Sheet1 Member=Component U2 BAT54C

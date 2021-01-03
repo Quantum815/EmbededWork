@@ -1,0 +1,15 @@
+Change Component Designator: OldDesignator=GND NewDesignator=GND1
+Added Component: Designator=GND2(HDR-1X8)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "BOM名称"; Value = "8P接插件"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=GND2-1
+Added Pin To Net: NetName=GND Pin=GND2-2
+Added Pin To Net: NetName=GND Pin=GND2-3
+Added Pin To Net: NetName=GND Pin=GND2-4
+Added Pin To Net: NetName=GND Pin=GND2-5
+Added Pin To Net: NetName=GND Pin=GND2-6
+Added Pin To Net: NetName=GND Pin=GND2-7
+Added Pin To Net: NetName=GND Pin=GND2-8
+Added Member To Class: ClassName=Sheet1 Member=Component GND2 HDR-1X8

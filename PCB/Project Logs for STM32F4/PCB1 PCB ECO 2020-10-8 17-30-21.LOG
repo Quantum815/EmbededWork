@@ -1,0 +1,26 @@
+Added Component: Designator=MLX90614(HDR-1X4)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "BOM名称"; Value = "4P接插件"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=R1(0805R)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "BOM名称"; Value = "贴片电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=R2(0805R)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "BOM名称"; Value = "贴片电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3.3V Pin=MLX90614-1
+Added Pin To Net: NetName=GND Pin=MLX90614-2
+Added Pin To Net: NetName=PB6 Pin=MLX90614-3
+Added Pin To Net: NetName=PB7 Pin=MLX90614-4
+Added Pin To Net: NetName=PB6 Pin=R1-1
+Added Pin To Net: NetName=3.3V Pin=R1-2
+Added Pin To Net: NetName=PB7 Pin=R2-1
+Added Pin To Net: NetName=3.3V Pin=R2-2
+Added Member To Class: ClassName=Sheet1 Member=Component MLX90614 HDR-1X4
+Added Member To Class: ClassName=Sheet1 Member=Component R1 20K
+Added Member To Class: ClassName=Sheet1 Member=Component R2 20K
