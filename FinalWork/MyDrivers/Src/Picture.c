@@ -69,4 +69,6 @@ void Show_Pic(FIL* fd, char* f_name)
 		}	
 		f_close(fd);
 	}
+	else
+		PicNum--;
 }

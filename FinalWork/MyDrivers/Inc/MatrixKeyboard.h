@@ -21,8 +21,6 @@
 //#define Column4_GPIO_Port  GPIOF
 //#define Column4_Pin        GPIO_PIN_9
 
-#define TOTAL_PIC_NUM 10
-
 extern uint8_t EnableShowRtcFlag;
 extern uint8_t EnableShowBPRateFlag;
 extern uint8_t EnableShowPicFlag;

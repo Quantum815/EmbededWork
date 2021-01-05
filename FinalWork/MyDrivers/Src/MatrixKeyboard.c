@@ -193,14 +193,9 @@ void R1C3Fuction(void)
 	if(EnableShowPicFlag)
 	{
 		PicNum++;
-		if(PicNum > TOTAL_PIC_NUM)
-			PicNum = TOTAL_PIC_NUM;
-		else
-		{
-			memset(f_name, 0x00, sizeof(*f_name));
-			sprintf((char*)f_name, "Pic%d.txt", PicNum);
-			Show_Pic(&fd, f_name);
-		}
+		memset(f_name, 0x00, sizeof(*f_name));
+		sprintf((char*)f_name, "Pic%d.txt", PicNum);
+		Show_Pic(&fd, f_name);
 	}
 }
 void R1C4Fuction(void)
