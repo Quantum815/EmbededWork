@@ -31,7 +31,7 @@ void GetBatteryPowerRate(uint8_t* buffer, uint8_t FilterTimes)
 		minValue = (minValue<value[i])?minValue:value[i];
 		maxValue = (value[i]<maxValue)?maxValue:value[i];    
 	}         
-	BatteryPowerRate = (allValue-minValue-maxValue)/(FilterTimes-2)/4096.0*100*(3.3/3.0);
+	BatteryPowerRate = (allValue-minValue-maxValue)/(FilterTimes-2)/4096.0*100;
 	temp = BatteryPowerRate / 0.5;
 	if(temp%2)
 		BatteryPowerRate = (temp + 1) * 0.5;

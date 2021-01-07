@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>USE_FULL_LL_DRIVER,USE_HAL_DRIVER,STM32F407xx,ARM_MATH_CM4</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;                  ../Drivers/STM32F4xx_HAL_Driver/Inc;                  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;                  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include;                  ../Drivers/CMSIS/Include;                  ..\MyFiles\Inc;                  ..\ILI9341\Inc;                  ..\Drivers\CMSIS\DSP\Include;                  ../FATFS/Target;                  ../FATFS/App;                  ../Middlewares/Third_Party/FatFs/src;                  ..\MyDrivers\Inc</IncludePath>
+              <IncludePath>../Core/Inc;                     ../Drivers/STM32F4xx_HAL_Driver/Inc;                     ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;                     ../Drivers/CMSIS/Device/ST/STM32F4xx/Include;                     ../Drivers/CMSIS/Include;                     ..\MyFiles\Inc;                     ..\ILI9341\Inc;                     ..\Drivers\CMSIS\DSP\Include;                     ../FATFS/Target;                     ../FATFS/App;                     ../Middlewares/Third_Party/FatFs/src;                     ..\MyDrivers\Inc</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>

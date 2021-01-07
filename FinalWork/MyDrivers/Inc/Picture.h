@@ -4,7 +4,7 @@
 #include "main.h"
 #include "ff.h"
 
-extern char FrameBuffer[240*4];
+extern char FrameBuffer[240*2];
 
 char Char2Hex(char c1, char c2);
 void Show_Pic(FIL* fd, char* f_name);

@@ -55,4 +55,6 @@ finalwork/picture.o: ..\MyDrivers\Src\Picture.c \
   D:\Program\ Files\ (x86)\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
   ..\ILI9341\Inc\ILI9341_STM32_Driver.h ..\Core\Inc\gpio.h \
   ..\Core\Inc\main.h ..\ILI9341\Inc\ILI9341_GFX.h \
-  ..\MyDrivers\Inc\MatrixKeyboard.h
+  ..\MyDrivers\Inc\MatrixKeyboard.h ..\MyFiles\Inc\Miscellaneous.h \
+  D:\Program\ Files\ (x86)\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdio.h \
+  ..\Core\Inc\usart.h

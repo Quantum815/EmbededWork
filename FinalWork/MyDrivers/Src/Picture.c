@@ -2,8 +2,9 @@
 #include "ILI9341_STM32_Driver.h"
 #include "ILI9341_GFX.h"
 #include "MatrixKeyboard.h"
+#include "Miscellaneous.h"
 
-char FrameBuffer[240*4];
+char FrameBuffer[240*2];
 
 char Char2Hex(char c1, char c2)
 {
@@ -21,7 +22,6 @@ void Show_Pic(FIL* fd, char* f_name)
 {
 	char SDBuffer[6];
 	char temp;
-//	uint32_t bytesread;
 	uint32_t index = 0;  //数组位
 	int32_t complement = 0;  //行末换行符补充数
 	uint32_t reservation = 0;  // 保留一次绘图后文件指针处  
@@ -29,12 +29,12 @@ void Show_Pic(FIL* fd, char* f_name)
 	
 	if(f_open(fd, f_name , FA_READ) == FR_OK)
 	{			
-		for(multiple = 1; multiple <= 160; multiple++)
+		for(multiple = 1; multiple <= 320; multiple++)
 		{
 			reservation += 5 * index + complement;
 			index = 0;
 			complement = 0;
-			while(index <= 240*4-1)
+			while(index <= 240*2-1)
 			{
 				f_lseek(fd, reservation + 5*index + complement);
 				f_gets(SDBuffer,6,fd);
@@ -65,7 +65,7 @@ void Show_Pic(FIL* fd, char* f_name)
 				}
 				index++;
 			}
-			ILI9341_Draw_Image(FrameBuffer, SCREEN_VERTICAL_1, 0, 2*(multiple-1), 240, 2*multiple);
+			ILI9341_Draw_Image(FrameBuffer, SCREEN_VERTICAL_1, 0, multiple-1, 240, multiple);
 		}	
 		f_close(fd);
 	}

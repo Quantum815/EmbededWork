@@ -20,7 +20,7 @@
 #include "Miscellaneous.h"
 
 // FATFS内容
-FATFS   fs;            /* FATFS 文件系统对象 */
+FATFS   fs;         /* FATFS 文件系统对象 */
 FRESULT fr;         /* FATFS 错误代码返回值 */
 FIL     fd;         /* FATFS 文件对象    */
 
@@ -50,7 +50,7 @@ void UserInit(void)
 	HAL_TIM_Base_Start_IT(&htim2);
 	HAL_TIM_Base_Start_IT(&htim3);
 	HAL_ADC_Start(&hadc1);
-	memset(FrameBuffer, 0x00, sizeof(*FrameBuffer));
+	memset(FrameBuffer, 0x00, sizeof(FrameBuffer));
 //************************************************************
 	EnableBuzzerFlag = 1;
 	HAL_Delay(1000);
@@ -62,7 +62,7 @@ void UserInit(void)
 	uint32_t bytesread;                   /* File read counts */
 	uint8_t errorflag = 0;
 	uint8_t wtext[] = "This is STM32 testing with FatFs"; /* File write buffer */
-	uint8_t rtext[100];                   /* File read buffers */
+	uint8_t rtext[sizeof(wtext)+1];                   /* File read buffers */
 	char filename[] = "STM32cube.txt";
 //	char SensorBuff[100];
 	
@@ -280,7 +280,7 @@ void UserMain(void)
 					MatrixKeyboardScanning();					
 				}
 			}
-			printf("%d	%d\r\n", x_pos, y_pos);
+//			printf("%d	%d\r\n", x_pos, y_pos);
 		}							
 	}
 }
