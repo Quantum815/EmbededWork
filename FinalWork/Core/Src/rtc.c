@@ -21,7 +21,11 @@
 #include "rtc.h"
 
 /* USER CODE BEGIN 0 */
-
+#define NOT_RESET_RTC_IN_INIT_
+#ifdef NOT_RESET_RTC_IN_INIT_
+#define HAL_RTC_SetDate(a, b, c) HAL_OK
+#define HAL_RTC_SetTime(a, b, c) HAL_OK
+#endif
 /* USER CODE END 0 */
 
 RTC_HandleTypeDef hrtc;
@@ -47,13 +51,16 @@ void MX_RTC_Init(void)
   }
 
   /* USER CODE BEGIN Check_RTC_BKUP */
-
+	#ifdef NOT_RESET_RTC_IN_INIT_
+	UNUSED(sTime);         
+	UNUSED(sDate);     
+	#endif 
   /* USER CODE END Check_RTC_BKUP */
 
   /** Initialize RTC and set the Time and Date
   */
-  sTime.Hours = 10;
-  sTime.Minutes = 0;
+  sTime.Hours = 12;
+  sTime.Minutes = 46;
   sTime.Seconds = 0;
   sTime.DayLightSaving = RTC_DAYLIGHTSAVING_NONE;
   sTime.StoreOperation = RTC_STOREOPERATION_RESET;
@@ -61,9 +68,9 @@ void MX_RTC_Init(void)
   {
     Error_Handler();
   }
-  sDate.WeekDay = RTC_WEEKDAY_FRIDAY;
+  sDate.WeekDay = RTC_WEEKDAY_SATURDAY;
   sDate.Month = RTC_MONTH_JANUARY;
-  sDate.Date = 1;
+  sDate.Date = 9;
   sDate.Year = 21;
 
   if (HAL_RTC_SetDate(&hrtc, &sDate, RTC_FORMAT_BIN) != HAL_OK)

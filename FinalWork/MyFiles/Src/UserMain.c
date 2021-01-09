@@ -53,7 +53,7 @@ void UserInit(void)
 	memset(FrameBuffer, 0x00, sizeof(FrameBuffer));
 //************************************************************
 	EnableBuzzerFlag = 1;
-	HAL_Delay(1000);
+	HAL_Delay(500);
 	EnableBuzzerFlag = 0;
 	ILI9341_Fill_Screen(WHITE);
 
