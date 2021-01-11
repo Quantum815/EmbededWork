@@ -3,6 +3,7 @@
 #include "ILI9341_GFX.h"
 #include "MatrixKeyboard.h"
 #include "Miscellaneous.h"
+#include "stdlib.h"
 
 char FrameBuffer[240*2];
 

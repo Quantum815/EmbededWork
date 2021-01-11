@@ -267,7 +267,7 @@ void UserMain(void)
 			}
 			if(x_pos > 40 && x_pos < 190 && y_pos > 220 && y_pos < 260)
 			{
-				char f_name[10];
+				char f_name[20];
 				
 				DisplayButtonDown(40,220,190,260);
 				Gui_DrawFont_GBK24(68, 230, GRAY1, GREEN, (uint8_t*)"Show Picture");
